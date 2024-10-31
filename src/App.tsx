@@ -1,7 +1,11 @@
+import CopyToClipboardButton from "./components/buttons/copyToClickboardButton";
+
 function App() {
   return (
     <>
-      <div className="w-full h-20 bg-red-100">ABC</div>
+      <div className="w-full min-h-screen bg-white flex justify-center items-center">
+        <CopyToClipboardButton />
+      </div>
     </>
   );
 }
