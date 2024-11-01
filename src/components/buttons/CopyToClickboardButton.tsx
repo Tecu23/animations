@@ -22,7 +22,7 @@ const CopyToClipboardButton = () => {
 
     return (
         <button
-            className={`bg-black border-none ${clicked ? "cursor-default" : " cursor-pointer"} outline-none mb-5`}
+            className={`bg-transparent border-none ${clicked ? "cursor-default" : " cursor-pointer"} outline-none mb-5`}
             aria-label="Copy to clipboard"
             title="Copy to clipboard"
             onClick={() => {
