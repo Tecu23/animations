@@ -1,10 +1,12 @@
-import HamburgerMenu from "./components/buttons/HamburgerMenu";
+import Skills from "./components/sections/Skills";
 
 function App() {
     return (
         <>
-            <div className="grid h-screen place-content-center bg-gradient-to-br from-violet-500 to-indigo-500">
-                <HamburgerMenu />
+            <div className="min-h-screen bg-neutral-50 px-4 py-12">
+                <div className="mx-auto max-w-7xl">
+                    <Skills />
+                </div>
             </div>
         </>
     );

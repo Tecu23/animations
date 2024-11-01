@@ -12,6 +12,7 @@ const HamburgerMenu = () => {
             }}
         >
             <motion.button
+                initial={false}
                 onClick={() => setActive((prev) => !prev)}
                 className="relative h-20 w-20 rounded-full transition-colors bg-white/0 hover:bg-white/20"
                 animate={active ? "open" : "close"}
