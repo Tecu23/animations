@@ -1,13 +1,11 @@
-import CopyToClipboardButton from "./components/buttons/copyToClickboardButton";
+import DraggableCarousel from "./components/carousels/DraggableCarousel";
 
 function App() {
-  return (
-    <>
-      <div className="w-full min-h-screen bg-white flex justify-center items-center">
-        <CopyToClipboardButton />
-      </div>
-    </>
-  );
+    return (
+        <>
+            <DraggableCarousel />
+        </>
+    );
 }
 
 export default App;
